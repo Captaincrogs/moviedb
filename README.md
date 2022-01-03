@@ -6,6 +6,7 @@ Install laravel and dependencies.
 
 ```sh
 php optimize:clear
+change env to local database
 php artisan migrate 
 Account is required
 ```
