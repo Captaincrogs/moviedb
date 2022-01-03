@@ -1,7 +1,7 @@
 <html>
 	<head> 
 	 <meta charset="UTF-8"> 
-	 <title>Example of Embedding YouTube Video inside Bootstrap Modal</title> 
+	 <title>Movie|Search</title> 
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"> 
 	 <link rel="stylesheet" href="{{asset('css/movie.css')}}">
