@@ -21,6 +21,7 @@
         "sass-loader": "^11.0.1"
     },
     "dependencies": {
-        "compas": "^0.0.1"
+        "compas": "^0.0.1",
+        "webtorrent": "^1.5.8"
     }
 }

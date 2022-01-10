@@ -1,6 +1,5 @@
 @include('header')
 <link href="css/movie.css" rel="stylesheet" />
-
 <h1 style="padding-top:10%;"><center>Top 10 newest and best rated movies <center></h1>
 @if (Auth::user())
     <h4 style=:20px;><center><strong> Welkom Back {{ Auth::user()->name }}</strong><center></h4>

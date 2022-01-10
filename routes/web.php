@@ -25,4 +25,5 @@ Route::middleware('auth')->group(function () {
     Route::get('/movies', [App\Http\Controllers\MovieController::class, 'index'])->name('movies');
 
     Route::post('/movies/search/', [App\Http\Controllers\MovieController::class, 'show']);
+    Route::get('/movies/stream/', [App\Http\Controllers\MovieController::class, 'streamMovie']);
 });

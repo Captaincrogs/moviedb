@@ -36,7 +36,6 @@ class MovieController extends Controller
             return $movie;
             
         });
-        
 
         //also teturn the youtube trailer
         $movies = $movies->map(function($movie) {
@@ -49,6 +48,12 @@ class MovieController extends Controller
         });
         return view('movies', compact('movies'));
         // $movies = Movie::with('reviews')->orderBy('reviews_count', 'desc')->take(10)->get();
+
+    }
+
+    public function streamMovie()
+    {
+        return view('stream');
 
     }
 
@@ -74,11 +79,9 @@ class MovieController extends Controller
             $trailer = collect($trailer)->firstWhere('site', 'YouTube');
             $movie->trailer = $trailer;
             return $movie;
-            
-        });
-        
 
-        
+        });
+
         return view('searchResults', compact('movies'));
         }
         

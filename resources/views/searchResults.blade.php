@@ -29,6 +29,7 @@
     </div>
 </header>
 
+
 {{-- display searched for keyword --}}
 {{-- no results go back --}}
 
@@ -66,6 +67,7 @@
 			<li><i class="material-icons">favorite_border</i></li>
 			<li><i class="material-icons">bookmark_border</i></li>
 			<li><a href="#myModal" class="btn btn-danger" data-toggle="modal">Watch trailer</a> </li>
+			<li><a href="{{route('movies/stream')}}" class="btn btn-danger">Stream movie</a> </li>
         </ul>
       </div>
     </div>

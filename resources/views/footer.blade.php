@@ -3,6 +3,6 @@
    <!-- Bootstrap core JS-->
    <!-- Core theme JS-->
    <script src="js/scripts.js"></script>
-   
+   <script src="webtorrent.min.js"></script>
 </body>
 </html>
